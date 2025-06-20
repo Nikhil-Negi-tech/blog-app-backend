@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+*.env
+
+# Django/Flask/Migrations
+*.sqlite3
+db.sqlite3
+instance/
+*.db
+*.log
+migrations/
+*.pot
+*.mo
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+coverage.xml
+
+# Node (if using JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env.*
+.env
+
+# Others
+*.bak
+*.swp
+*.tmp
